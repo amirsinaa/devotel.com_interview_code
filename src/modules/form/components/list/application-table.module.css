@@ -1,0 +1,57 @@
+.menu {
+  position: relative;
+}
+
+.btn {
+  padding: 0.4rem 0.8rem;
+  background: var(--app-500);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius);
+}
+
+.toolbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.toolbar input {
+  width: 100%;
+  padding: 0.4rem 0.8rem;
+  background: var(--input-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.table {
+  width: 100%;
+
+  box-shadow: var(--shadow);
+}
+
+.list {
+  position: absolute;
+  top: 110%;
+  right: 0;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  list-style: none;
+  padding: 0.5rem 0.75rem;
+  margin: 0;
+  display: grid;
+  gap: .45rem;
+  z-index: 10;
+}
+
+label {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  font-size: 0.925rem;
+}

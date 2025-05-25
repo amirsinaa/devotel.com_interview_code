@@ -1,0 +1,163 @@
+:root {
+  --app-500: #2563eb;
+  --app-600: #1d4ed8;
+  --grey-100: #f4f4f5;
+  --grey-200: #e4e4e7;
+  --grey-700: #3f3f46;
+  --grey-800: #27272a;
+  --radius: 0.75rem;
+  --shadow: 0 2px 6px rgb(0 0 0 / .08);
+  --bg: #ffffff;
+  --fg: #1f2937;
+  --card: #ffffff;
+  --border: var(--grey-200);
+  --input-bg: #ffffff;
+}
+
+[data-theme='dark'] {
+  --bg: #181a1b;
+  --fg: #f3f4f6;
+  --card: #1f1f21;
+  --border: #303134;
+  --input-bg: #26262a;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--fg);
+  transition: background .25s, color .25s;
+}
+
+a {
+  color: var(--app-500);
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+}
+
+input,
+select,
+textarea {
+  padding: 0.55rem 0.9rem;
+  font: inherit;
+  background: var(--input-bg);
+  color: inherit;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  outline-offset: 2px;
+  transition: border-color .2s;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: var(--app-500);
+}
+
+h1,
+h2 {
+  font-weight: 600;
+  margin: 0 0 .75rem;
+}
+
+@media (min-width: 640px) {
+  .stack-sm {
+    max-width: 32rem;
+    margin-inline: auto;
+  }
+}
+
+.card {
+  background: var(--card);
+  padding: 1.5rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem 3rem;
+}
+
+.container {
+  display: grid;
+  gap: 1.75rem;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.25rem 1.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  transition: transform .25s, box-shadow .25s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgb(0 0 0 / .15);
+}
+
+.card h3 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+.btn {
+  margin-top: auto;
+  align-self: start;
+  background: var(--app-500);
+  color: #fff;
+  padding: 0.45rem 0.95rem;
+  border-radius: var(--radius);
+  border: none;
+  font-size: .95rem;
+  transition: background .25s;
+}
+
+.card:hover .btn {
+  background: var(--app-600);
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.15rem 0.55rem;
+  font-size: 0.7rem;
+  font-weight: 500;
+  border-radius: 999px;
+  color: #fff;
+  background: var(--app-500);
+}

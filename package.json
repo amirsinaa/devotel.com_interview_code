@@ -1,0 +1,48 @@
+{
+	"name": "smart-insurance-portal",
+	"private": true,
+	"version": "0.0.1",
+	"type": "module",
+	"author": {
+		"name": "Amirsina Shadkami",
+		"email": "amirsina23@gmail.com",
+		"url": "https://github.com/amirsinaa"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/amirsinaa/devotel.com_interview_code"
+	},
+	"homepage": "https://devotel-interview-code.vercel.app",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc -b && vite build",
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix",
+		"test": "vitest run",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"react": "^19.1.0",
+		"react-dom": "^19.1.0",
+		"react-router-dom": "^7.6.0"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.27.0",
+		"@testing-library/jest-dom": "^6.6.3",
+		"@testing-library/react": "^16.3.0",
+		"@types/node": "^22.15.21",
+		"@types/react": "^19.1.5",
+		"@types/react-dom": "^19.1.5",
+		"@vitejs/plugin-react": "^4.5.0",
+		"eslint": "^9.27.0",
+		"eslint-plugin-react-hooks": "^5.2.0",
+		"eslint-plugin-react-refresh": "^0.4.20",
+		"globals": "^16.2.0",
+		"jsdom": "^26.1.0",
+		"typescript": "~5.8.3",
+		"typescript-eslint": "^8.32.1",
+		"vite": "^6.3.5",
+		"vitest": "^3.1.4"
+	}
+}

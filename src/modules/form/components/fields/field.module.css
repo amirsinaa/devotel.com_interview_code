@@ -1,0 +1,34 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.radioRow,
+.checkboxRow {
+  display: flex;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.draggable {
+  cursor: grab;
+}
+
+.draggable:active {
+  cursor: grabbing;
+  opacity: .7;
+}
+
+.group {
+  border: 1px solid var(--border);
+  padding: 1rem 1.25rem;
+  border-radius: var(--radius);
+  background: var(--card);
+  margin-bottom: 0.75rem;
+}
+
+.error {
+  color: #dc2626;
+  font-size: 0.875rem;
+}

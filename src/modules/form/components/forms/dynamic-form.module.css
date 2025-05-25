@@ -1,0 +1,29 @@
+.form {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.form button[type='submit'] {
+  width: max-content;
+  align-self: start;
+  background: var(--app-500);
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.3rem;
+  border-radius: var(--radius);
+  transition: background .25s;
+}
+
+.form button:hover {
+  background: var(--app-600);
+}
+
+.success {
+  color: #16a34a;
+  font-weight: 500;
+}
+
+.error {
+  color: #dc2626;
+  font-weight: 500;
+}
