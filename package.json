@@ -1,7 +1,7 @@
 {
 	"name": "smart-insurance-portal",
 	"private": true,
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"type": "module",
 	"author": {
 		"name": "Amirsina Shadkami",
@@ -13,7 +13,7 @@
 		"type": "git",
 		"url": "https://github.com/amirsinaa/devotel.com_interview_code"
 	},
-	"homepage": "https://devotel-interview-code.vercel.app",
+	"homepage": "https://devotel-com-interview-code.vercel.app/",
 	"scripts": {
 		"dev": "vite",
 		"build": "tsc -b && vite build",
