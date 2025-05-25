@@ -143,7 +143,7 @@ https://assignment.devotel.io
 
 ## Assumptions
 
-* The backend API strictly follows the structure described in the assignment document.
+* The backend API strictly follows the structure described in the [assignment document](https://github.com/amirsinaa/devotel.com_interview_code/blob/main/Frontend%20Developer%20Code%20Assignment.docx).
 * All forms are described by a schema returned from the API (no hardcoding).
 * The app supports English and Persian by default; more languages can be added in `/src/modules/core/i18n/translations.ts`.
 * Autosaved drafts are stored in `localStorage` and cleared after successful submit.
